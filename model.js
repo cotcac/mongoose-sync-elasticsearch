@@ -15,7 +15,8 @@ PostSchema.plugin(mongoosastic, {
 
 var Post = mongoose.model('post', PostSchema);
 /**
- * SYNG ALREADY EXIT DATA. It work like it delete the exist data on ES then redindex.
+ * SYNG ALREADY EXIT DATA. 
+ * It work like it delete the exist data on ES then redindex.
  * So it can help you reindex all data. But if your data is big then it may be a problem.
  * YOU  can delete this block.
  * 
