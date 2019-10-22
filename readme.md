@@ -1,7 +1,14 @@
 
 # MongoDB and ElasticSearch Synchronization
 We are assuming that MongoDB is our primary database and ElasticSearch is our secondary database. This means that we will add/delete/update the data in MongoDB first and then ElasticSearch.
-# Install elasticsearch
+
+# Flow
+
+![Alt][1]
+
+[1]: /mongoose-elasticsearch.png "Title"
+
+# Install elasticsearch with Docker
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_pulling_the_image
 ```
 docker pull docker.elastic.co/elasticsearch/elasticsearch:7.4.0
